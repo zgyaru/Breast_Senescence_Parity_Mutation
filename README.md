@@ -21,7 +21,7 @@ Key findings:
 | `milo/` | Differential abundance testing across conditions using Milo
 | `senescence/` | Senescence scoring, ATB737 treatment analysis and ageing signatures
 | `immune_dotplot/` | Immune compartment characterisation and exhaustion signatures
-| `Visium_HD/` | Spatial transcriptomics processing, senescent niche mapping, and CNV inference
+| `Visium_HD/` | Spatial transcriptomics processing, senescent niche, and topological analysis
 
 *Please update the figure mapping above to match your manuscript.*
 
