@@ -35,7 +35,7 @@ Analyses were performed primarily in Python (Scanpy, scVI-tools, Milo) and R (wh
 
 - `scanpy` >= 1.9
 - `scvi-tools` >= 1.0
-- `milopy` / `miloR`
+- `milo`
 - `anndata`
 - `infercnvpy`
 - `squidpy` (for Visium HD)
