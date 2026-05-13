@@ -27,21 +27,23 @@ Key findings:
 
 ## Reproducing the analyses
 
-Each subdirectory is self-contained and includes the scripts/notebooks used to generate the corresponding results. We recommend running the modules in the order listed above, as later analyses depend on outputs from `preprocessing/` and `scvi/`.
+Each subdirectory is self-contained and includes the scripts/notebooks used to generate the corresponding results. 
 
 ### Requirements
 
-Analyses were performed primarily in Python (Scanpy, scVI-tools, Milo) and R (where indicated). Key dependencies:
+Analyses were performed primarily in Python (Scanpy, scVI-tools, Milo) and R (inferCNV). Key dependencies:
 
-- `scanpy` >= 1.9
-- `scvi-tools` >= 1.0
-- `milo`
-- `anndata`
-- `infercnvpy`
-- `squidpy` (for Visium HD)
-- `Muspan` (for Visium HD)
-
-Exact versions and session info are provided within each subdirectory.
+- Scanpy (v1.11.2);
+- anndata (v0.12.10);
+- scVI (v1.3.1);
+- Scrublet (v0.2.3);
+- scipy (v1.16.3);
+- Milo (v1.3.1);
+- LIANA (v1.5.0);
+- LIANA+ (v1.5.0);
+- TACCO (v0.4.0);
+- infercnv (v3.21);
+- Muspan (v1.2.1).
 
 ## Data availability
 
