@@ -42,7 +42,6 @@ Analyses were performed primarily in Python (Scanpy, scVI-tools, Milo) and R (in
 - LIANA (v1.5.0);
 - LIANA+ (v1.5.0);
 - TACCO (v0.4.0);
-- infercnv (v3.21);
 - Muspan (v1.2.1).
 
 ## Data availability
