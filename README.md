@@ -13,8 +13,8 @@ Key findings:
 
 ## Repository structure
 
-| Directory | Contents | Related figures |
-|-----------|----------|-----------------|
+| Directory | Contents |
+|-----------|----------|
 | `preprocessing/` | Raw count QC, doublet removal, ambient RNA correction, and initial filtering
 | `scvi/` | scVI integration across mice, genotypes, ages, and parity states
 | `sc_annotation/` | Cell type annotation (epithelial, immune, stromal compartments) and marker analysis
