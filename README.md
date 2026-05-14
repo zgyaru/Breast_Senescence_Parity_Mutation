@@ -4,12 +4,8 @@ Time-resolved single-cell atlas of precancerous changes in HR-deficient mouse ma
 
 ## Overview
 
-This repository contains the analysis code for our study of early tumour-initiating events in homologous recombination (HR)-deficient breast cancer models. We generated a single-cell transcriptomic atlas of >500,000 cells from 62 mice spanning four HR-deficient models (two *Brca1* models, *Brca2*, *Palb2*) and wild-type controls, across a broad age range (up to 2 years) and parity states. Complementary Visium HD spatial transcriptomics was used to map senescent epithelial niches and their immune microenvironment.
+This repository contains the analysis code for our study of early tumour-initiating events in homologous recombination (HR)-deficient breast cancer models.
 
-Key findings:
-- Aberrant differentiation, accelerated ageing, and unresolved senescence of Luminal Adaptive Secretory Precursors (LASPs) across all four HR-deficient models
-- Senescent epithelial regions harbour elevated predicted copy number variations and are surrounded by exhausted immune cells
-- Pharmacological disruption of senescent cells attenuates aberrant differentiation and reduces the immune-exhausted signature
 
 ## Repository structure
 
