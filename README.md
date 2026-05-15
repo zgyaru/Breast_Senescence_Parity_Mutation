@@ -42,4 +42,4 @@ Analyses were performed primarily in Python (Scanpy, scVI-tools, Milo) and R (in
 
 ## Data availability
 
-Raw sequencing data will be deposited in a public repository: E-MTAB-16973.
+Raw sequencing data will be deposited in a public repository: E-MTAB-16973 and E-MTAB-17060.
