@@ -17,7 +17,7 @@ This repository contains the analysis code for our study of early tumour-initiat
 | `milo/` | Differential abundance testing across conditions using Milo
 | `senescence/` | Senescence scoring, ATB737 treatment analysis and ageing signatures
 | `immune_dotplot/` | Immune compartment characterisation and exhaustion signatures
-| `Visium_HD/` | Spatial transcriptomics processing, senescent niche, and topological analysis
+| `Visium_HD/` | Spatial transcriptomics processing, senescent niche, c2c, inferCNV, and topological analysis
 
 *Please update the figure mapping above to match your manuscript.*
 
