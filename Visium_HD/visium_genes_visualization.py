@@ -5,9 +5,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-adata = ad.read_h5ad('../visium_HD/Load_data/WKBR_adata_tacco_final.h5ad')
+adata = ad.read_h5ad(visium_path)
 
-sc.settings.figdir = '../visium_HD/TACCO/wkbr/annotation_plot'
 
 ct_dict = {
     'Epithelial': ["Krt8", "Krt18", "Epcam"],
@@ -64,17 +63,17 @@ ct_order_filtered = [c for c in ct_order if c in existing_categories]
 sc.pl.matrixplot(
     adata, var_names=ct_dict, groupby='Tacco_merged', use_raw=False,
     standard_scale='var', categories_order=ct_order_filtered,
-    save='_wkbr_marker_genes_matrix.png'
+    save='_marker_genes_matrix.png'
 )
 
 sc.pl.matrixplot(
     adata, var_names=ct_dict, groupby='Tacco_merged', use_raw=False,
     standard_scale='var', categories_order=ct_order_filtered,
-    save='_wkbr_marker_genes_matrix.pdf'
+    save='_marker_genes_matrix.pdf'
 )
 
 sc.pl.matrixplot(
     adata, var_names=ct_dict, groupby='Tacco_merged', use_raw=False,
     standard_scale='var', categories_order=ct_order_filtered,
-    save='_wkbr_marker_genes_matrix.svg'
+    save='_marker_genes_matrix.svg'
 )
